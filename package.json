@@ -1,19 +1,24 @@
 {
   "name": "backend-youtube",
   "version": "1.0.0",
-  "description": "a backend-youtube",
+  "description": "a backend - youtube",
   "keywords": [
     "javascript",
     "backend"
   ],
+  "homepage": "https://github.com/DevPrashant00/Backend#readme",
+  "bugs": {
+    "url": "https://github.com/DevPrashant00/Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevPrashant00/Backend.git"
+  },
   "license": "ISC",
   "author": "Prashant Sharma",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.10"
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
